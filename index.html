@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Checkout Page | byRedHunter</title>
+		<link
+			rel="shortcut icon"
+			href="./assets/images/favicon.png"
+			type="image/x-icon"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+	</head>
+	<body>
+		<h1 class="parent title">Checkout</h1>
+
+		<section class="parent checkout">
+			<div class="checkout-product">
+				<div class="list-products">
+					<div class="product">
+						<figure class="product-image">
+							<img src="./assets/images/photo1.png" alt="Mochila" />
+						</figure>
+						<div class="product-data">
+							<div>
+								<h4>Vintage Backbag</h4>
+								<p>$54.99 <span>$94.99</span></p>
+							</div>
+							<div class="product-actions">
+								<button><i class="fas fa-minus"></i></button>
+								<div>1</div>
+								<button><i class="fas fa-plus"></i></button>
+							</div>
+						</div>
+					</div>
+
+					<div class="product">
+						<figure class="product-image">
+							<img src="./assets/images/photo2.png" alt="Zapatos" />
+						</figure>
+						<div class="product-data">
+							<div>
+								<h4>Levi Shoes</h4>
+								<p>$74.99 <span>$124.99</span></p>
+							</div>
+							<div class="product-actions">
+								<button><i class="fas fa-minus"></i></button>
+								<div>1</div>
+								<button><i class="fas fa-plus"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="resumen-products">
+					<ul class="resumen">
+						<li>
+							<span class="resumen-text">Shipping</span>
+							<span class="resumen-price">$19</span>
+						</li>
+						<li>
+							<span class="resumen-text">Total</span>
+							<span class="resumen-price">$148.98</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="checkout-form">
+				<form>
+					<h2 class="form-title">Contact information</h2>
+
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<div class="input-group">
+							<input
+								type="email"
+								placeholder="Enter your email..."
+								class="input"
+								id="email"
+							/>
+							<i class="fas fa-envelope"></i>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="phone">Phone</label>
+						<div class="input-group">
+							<input
+								type="number"
+								placeholder="Enter your phone..."
+								class="input"
+								id="phone"
+							/>
+							<i class="fas fa-phone"></i>
+						</div>
+					</div>
+
+					<h2 class="form-title mt-5">Shipping address</h2>
+
+					<div class="form-group">
+						<label for="name">Full name</label>
+						<div class="input-group">
+							<input
+								type="text"
+								placeholder="Enter your name..."
+								class="input"
+								value="Rodney Cotton"
+								id="name"
+							/>
+							<i class="fas fa-user-circle"></i>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="address">Address</label>
+						<div class="input-group">
+							<input
+								type="text"
+								placeholder="Your address..."
+								class="input"
+								id="address"
+							/>
+							<i class="fas fa-home"></i>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="city">City</label>
+						<div class="input-group">
+							<input
+								type="text"
+								placeholder="Your city..."
+								class="input"
+								id="city"
+							/>
+							<i class="fas fa-city"></i>
+						</div>
+					</div>
+
+					<div class="form-row">
+						<div class="form-group">
+							<label for="country">Country</label>
+							<div class="input-group">
+								<select name="country" id="country" class="input">
+									<option value="">Your country...</option>
+									<option value="peru">Perú</option>
+									<option value="colombia">Colombia</option>
+									<option value="argentina">Argentina</option>
+								</select>
+								<i class="fas fa-globe"></i>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="cp">Postal Code</label>
+							<div class="input-group">
+								<input
+									type="text"
+									placeholder="Your postal code..."
+									class="input"
+									id="cp"
+								/>
+								<i class="fas fa-map-marker"></i>
+							</div>
+						</div>
+					</div>
+
+					<label for="save" class="form-check">
+						<input type="checkbox" name="save" id="save" class="check" />
+						Save this information for next time
+					</label>
+
+					<button class="form-button">Continue</button>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
