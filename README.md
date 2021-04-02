@@ -10,11 +10,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/SyMliJff4okB8gZehsFT">
+    <a href="https://devchallenges.io/solutions/7bvZyZ3UsdO324PJR4ng">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
     </a>
   </h3>
@@ -24,7 +24,7 @@
 
 ## Overview
 
-![screenshot](https://repository-images.githubusercontent.com/352208451/32019280-8f33-11eb-95de-758668d7ea80)
+![screenshot](https://repository-images.githubusercontent.com/354131314/3a8f1880-93cc-11eb-8edd-82fc9346df01)
 
 
 ## Contact
